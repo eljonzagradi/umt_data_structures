@@ -1,4 +1,5 @@
 package data_structure_warm_up;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
@@ -35,7 +36,7 @@ public class ProblemSet1 {
     public static int findKthSmallest(Integer[] list, int k) {
         List<Integer> newList = Arrays.asList(list);
         Collections.sort(newList);
-        return newList.get(k-1);
+        return newList.get(k - 1);
     }
 
     public static ArrayList<Integer> longestSequence(int[] list) {
